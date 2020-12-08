@@ -1,5 +1,5 @@
 
-navigator.mediaDevices.webKitgetUserMedia({ video: true, audio: true }, function (stream) {
+navigator.webKitgetUserMedia({ video: true, audio: true }, function (stream) {
 
     var Peer = require("simple-peer")
     var peer = new Peer({
